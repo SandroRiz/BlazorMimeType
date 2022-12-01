@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<p>Sample App to investigate issue about downloading not-usual file types </p>
+
+<p>Eg. try to download a .msg file <a href="test.msg">like this.</a> - A <a href="test.txt">normal txt</a> file sholud work.</p>
+
+
+<p>Let's see if Blazor.Js is working...</p>
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
+
