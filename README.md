@@ -1,4 +1,5 @@
 # BlazorMimeType
 
-Repo to investigate and issue with non-usual MimeTypes like ".msg"
-Usually it is enough to add the mime type to IIS but here still doesn't work
+Sample App to investigate issue about downloading not-usual file types
+
+See blog post (italian only) https://www.rizzetto.com/Blog/post/mime-type-in-blazor-server-e-asp-net
